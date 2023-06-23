@@ -1,0 +1,39 @@
+@charset "UTF-8";
+:root { 
+    --font-color: #23b5ea;
+    --backgroud_button:#1088b4;
+    --button_hover:#fff;
+    --back:#def6ff;
+    --header_color: #fff;
+    --nav_color: #01AAE7;
+    --footer_color:#002f3;
+}
+/* Imagem do cabeçalho */
+img {
+    display: block;
+    height:70px;
+    margin-top:  20px;
+    margin: auto;
+    } 
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+/* Cabeçalho */
+    header {
+    padding: 40px;                           
+    background-color: var(--header_color);          
+    }
+    nav {                                             
+        background-color: var(--nav_color);
+        height: 10px;
+        } 
+/*Interface dos botões*/
+button {
+    box-shadow: 2px 2px rgba(29, 28, 28, 0.034);
+    background-color:var (--backgroud_button);
+    font-size:20px;
+    color:white;
+    transition: 1s;                           
+    border:none
+}
