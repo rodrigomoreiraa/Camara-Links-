@@ -26,3 +26,9 @@ body{
 .btn:hover {
 background-color:#01AAE7;
 }
+
+footer {
+    background-color:#002f3f;
+    color: white;
+
+}
